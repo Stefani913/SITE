@@ -1,0 +1,152 @@
+@media all and (max-width: 650px) {
+
+    /*HEADER*/
+    header {
+        width: 90%;
+        padding: 10px 5%;
+        font-size: 2vw;
+    }
+
+    .header-logo {
+        width: 80px;
+    }
+
+    /*CONTAINER*/
+    section {
+        width: 90%;
+        height: auto;
+        margin: 0;
+        padding: 0 5%;
+    }
+
+    .section-name > h2 {
+        font-size: 3vw;
+    }
+
+    .section-name > p {
+        font-size: 2vw;
+    }
+
+    /*CONTAINER_section-main*/
+    .section-main_title {
+        font-size: 3vw;
+    }
+
+    .section-main_button {
+        font-size: 2vw;
+        margin-left: 30px;
+        padding: 10px 30px;
+    }
+
+    .section-main_img {
+        width: 50px;
+    }
+
+    /*CONTAINER_section-about*/
+    .stction-about {
+        padding: 5%;
+    }
+
+    .section-about_content {
+        display: block;
+        padding: 0;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .section-about_content > div:last-child {
+        padding: 10% 0;
+    }
+
+    /*CONTAINER_section-services*/
+    .section-services_content > div > div > div > h3 {
+        font-size: 2vw;
+    }
+
+    .section-services_content > div > div > div > p {
+        font-size: 1.7vw;
+    }
+
+    .section-services_content > div > div > div > a {
+        font-size: 2vw;
+    }
+
+    /*CONTAINER_section-team*/
+    .section-team_content > div > div > span {
+        width: 23%;
+    }
+
+    .section-team_content > div > div > span.first {
+        left: 6.7%;
+        margin-top: 15%;
+    }
+
+    .section-team_content > div > div > span.second {
+        left: 36.5%;
+        margin-top: 15%;
+    }
+
+    .section-team_content > div > div > span.third {
+        left: 66.5%;
+        margin-top: 15%;
+    }
+
+    /*CONTAINER_section-say*/
+    .section-say_content > div {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .section-say_content > div > div {
+        width: 100%;
+        height: auto;
+        padding: 10% 0;
+        text-align: center;
+        background-color: rgb(230, 231, 231)
+    }
+
+    .section-say_content > div > div:first-child {
+        width: 100%;
+        padding: 0;
+    }
+
+    .section-say_content > div > div > h3 {
+        font-size: 2em;
+    }
+
+    .section-say_content > div > div > h3 > i {
+        font-size: 14px;
+    }
+
+    .section-say_content > div > div > p {
+        font-size: 1em;
+    }
+
+    /*CONTAINER_section-contacts*/
+    .section-contacts {
+        padding: 5%;
+    }
+
+    .section-contacts_content {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .section-contacts_content > div:first-child {
+        width: auto;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media all and (orientation: landscape),
+all and (max-width: 750px) {}
+
+@media print {
+    * {
+        display: none;
+    }
+}
